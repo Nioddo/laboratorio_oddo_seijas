@@ -10,7 +10,7 @@ int main(){
     cont=cadena.size();
 
     for(int i=0; i <cont; i++){
-        if(cadena[i]==","){
+        if(cadena[i]==','){
             cadena2+=" ";
         }
         else{
