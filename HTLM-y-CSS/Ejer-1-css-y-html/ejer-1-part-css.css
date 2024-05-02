@@ -1,0 +1,6 @@
+:root{
+    --azul: blue;
+}
+#parrafo{
+    color: var(--azul);
+}
