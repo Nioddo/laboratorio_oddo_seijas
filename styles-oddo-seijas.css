@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+:root{
+    --colortitulo: #e5ff00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--colortitulo);
+    background-color: black; 
+}
+#fo{
+    height: 100px;
+    width: 100px;
+}
+.ti{    
+    font-family: Bebas Neue;
+    font-size: 100px;
+}
+#subtitulos{
+    font-family: Anton;
+    font-size: 30px;
+}
+#navegador{
+    list-style-type: none;
+    text-align: center;
+    color: var(--colortitulo);
+    background-color: gray;
+}
+#navegador ul {
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+#navegador li a {
+    padding: 1px 15px 0.1px 15px;
+    color: #ffffff;
+    background-color: #0400ff;
+    text-decoration: none;
+    font-family: Roboto Mono;
+ }
+ #kmain{
+    background-color: rgba(0, 0, 0, 0.404);
+ }
+ #sub2{
+    font-family: Bebas Neue;
+    text-align: center;
+    color: var(--colortitulo);
+ }
+ #pa{
+    text-align: center;
+    font-family: Sedan SC;
+    font-size: 25px;
+ }
+ #he{
+     text-align: center;
+ }
+ 
+ #listal{
+    list-style-type: circle;
+   
+ }
+
+#listal li{
+   
+    list-style-type: disc; 
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+ #back{
+    background-color: rgb(255, 255, 0);  
+ }
+ 
+
