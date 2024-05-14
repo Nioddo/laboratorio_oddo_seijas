@@ -1,0 +1,12 @@
+a{
+    font-family: arial, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    color: blue;
+    transition: 0.1s;
+}
+ 
+a:hover{
+    color : rgb(251, 255, 0);
+    font-size: 70px;
+}
