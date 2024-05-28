@@ -1,18 +1,15 @@
 #include<iostream>
 using namespace std;
-void cambio (int n1, int n2 ){
-int num_aux=n2;
-n2=n1;
-n1=num_aux;
+void cambio (string &l1, char l2){
+l1=l1+l2;
 }
 int main(){
-    int num_aux;
-    cout<<"ingrese primer numero"<<endl;
-    cin>>n1;
-    cout<<"ingrese segundo numero"<<endl;
-    cin>>n2;
-
-    cout<<"numero 1 intercambiado: "<< n1 <<endl;
-    cout<<"numero 2 intercambiado: "<< n2 <<endl;
-
+    string l1;
+    char l2;
+    cout<<"ingrese palabra: "<<endl;
+    cin>>l1;
+    cout<<"ingrese letra: "<<endl;
+    cin>>l2;
+    cambio(l1, l2);
+    cout<<"palabra + letra: : "<< l1 <<endl;
 }
