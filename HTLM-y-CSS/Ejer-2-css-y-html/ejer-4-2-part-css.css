@@ -1,0 +1,85 @@
+header{
+ 
+    display: flex;
+    border:2px solid white;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    color:var(--colorAzul);
+    text-align: center;
+}
+.logoig{
+    margin: 0 40px 0 20px;
+    
+}
+.divbuscador{
+    border-radius: 20%;
+    color:gray
+}
+.buscar{
+    margin: 3px 200px 0 0px;
+ 
+}
+.lupa{
+    margin: 3px 0px 0 200px;
+ 
+}
+.iniciar_sesion{
+    border-radius: 40%;
+    margin-top: 9px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    color:white;
+    text-align: center;
+    border:10px solid rgb(0, 149, 246) ;
+    background-color:rgb(0, 149, 246);
+}
+.registrarse{
+    margin-left: 50px;
+    margin-top: 9px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+    color:black;
+    text-align: center;
+    border:5px solid blue;
+    background-color: white;
+}
+<!DOCTYPE html> <html lang="en"> <head>    ... de SCANIO Lautaro11:04SCANIO Lautaro
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ej2cssform.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    </header>
+    <div class="header">
+            <img class="logoig" src="instagram.png" alt="logo de instagram" width="50" height="50" >
+            <img class="logoig" src="letraig.jpg" alt="logo de instagram" width="170" height="50" >
+            
+            <div class="divbuscador">
+            <img class="lupa" src="lupaigpng" alt="lupa" width="20" height="20">
+            <input class="buscar" type="text" placeholder="Buscar"  ></input>
+            </div>
+ 
+            <a class="iniciar_sesion" href="https://www.instagram.com/"> Iniciar sesion </a>
+            <a class="registrarse" href="https://www.instagram.com/accounts/emailsignup/"> Registrarse</a>
+        </div>
+        
+        </header>
+</body>
+</html>

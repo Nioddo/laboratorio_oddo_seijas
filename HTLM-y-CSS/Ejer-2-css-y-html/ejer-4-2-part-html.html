@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejer-4-2 con css</title>
+    <link rel="stylesheet" href="ejer-4-2-part-css.css" type="text/css" />
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="30" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" maxlength="30" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto" required>
+                <option value="presupuesto">Pedir presupuesto</option>
+                <option value="cita">Solicitar cita previa</option>
+                <option value="otros">Otros</option>
+            </select>
+
+            <label>¿Cómo nos ha escogido?</label>
+            <div class="checkbox-group">
+                
+                <input type="checkbox" id="amigo" name="escogido[]" value="amigo">
+                <label for="amigo">Recomedaciones de conocidos</label>
+                
+                <input type="checkbox" id="googleando" name="escogido[]" value="googleando">
+                <label for="googleando">Navegando por internet</label>
+                
+                <input type="checkbox" id="redes" name="escogido[]" value="redes">
+                <label for="redes">Por nuestras redes sociales</label>
+                
+                <input type="checkbox" id="otros" name="escogido[]" value="otros">
+                <label for="otros">Otros</label>
+            </div>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" maxlength="300" required></textarea>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
