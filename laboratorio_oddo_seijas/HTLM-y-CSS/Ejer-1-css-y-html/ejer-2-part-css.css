@@ -1,8 +1,0 @@
-:root{
-    --colore: rgb(21, 255, 0);
-    
-}
-#olo{
-    color: var(--colore);
-    text-decoration: none;
-}

@@ -1,1 +1,0 @@
-# laboratorio_oddo_seijas
